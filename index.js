@@ -23,6 +23,15 @@ function currentLine(line){
   if (line.length === 0) {
     output = `The line is currently empty.`
   }
-  return output
+  else {
+    for (let i =0;i<line.length;i++){
+      if (i===0){
+        output = `The line is currently: ${i+1). ${line[i]}
+      }
+    }
+  }
+  
+  
+  
 }
 
