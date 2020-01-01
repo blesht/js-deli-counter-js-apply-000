@@ -28,7 +28,7 @@ function currentLine(line){
       if (i===0){
         output = `The line is currently: ${i+1). ${line[i];}
         else {
-          output =`The line is currently:
+          output =`${output}, ${i+1}. $line{i}`
         }
       }
     }
