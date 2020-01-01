@@ -23,8 +23,6 @@ function currentLine(line){
   if (line.length === 0) {
     output = `The line is currently empty.`
   }
-  else {
-    output = `The line is currently`
-    if (line )
-
+  return output
+}
 
