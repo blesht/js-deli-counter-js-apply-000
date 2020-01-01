@@ -26,7 +26,10 @@ function currentLine(line){
   else {
     for (let i =0;i<line.length;i++){
       if (i===0){
-        output = `The line is currently: ${i+1). ${line[i]}
+        output = `The line is currently: ${i+1). ${line[i];}
+        else {
+          output =`The line is currently:
+        }
       }
     }
   }
